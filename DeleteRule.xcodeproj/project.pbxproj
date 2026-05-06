@@ -10,6 +10,14 @@
 		86418C802FAB266200561532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86418C7C2FAB266200561532 /* Assets.xcassets */; };
 		86418C812FAB266200561532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C7D2FAB266200561532 /* ContentView.swift */; };
 		86418C822FAB266200561532 /* DeleteRuleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C7E2FAB266200561532 /* DeleteRuleApp.swift */; };
+		86418C8C2FAB27B700561532 /* ModelOneOneUnidir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C842FAB27B700561532 /* ModelOneOneUnidir.swift */; };
+		86418C8D2FAB27B700561532 /* ModelOneManyUnidir1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C862FAB27B700561532 /* ModelOneManyUnidir1.swift */; };
+		86418C8E2FAB27B700561532 /* ModelOneManyBidir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C882FAB27B700561532 /* ModelOneManyBidir.swift */; };
+		86418C8F2FAB27B700561532 /* ModelManyManyUnidir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C892FAB27B700561532 /* ModelManyManyUnidir.swift */; };
+		86418C902FAB27B700561532 /* ModelOneOneBidir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C852FAB27B700561532 /* ModelOneOneBidir.swift */; };
+		86418C912FAB27B700561532 /* ModelOneManyUnidir2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C872FAB27B700561532 /* ModelOneManyUnidir2.swift */; };
+		86418C922FAB27B700561532 /* ModelManyManyBidir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C8A2FAB27B700561532 /* ModelManyManyBidir.swift */; };
+		86418C932FAB27B700561532 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86418C832FAB27B700561532 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +25,14 @@
 		86418C7C2FAB266200561532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86418C7D2FAB266200561532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86418C7E2FAB266200561532 /* DeleteRuleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteRuleApp.swift; sourceTree = "<group>"; };
+		86418C832FAB27B700561532 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		86418C842FAB27B700561532 /* ModelOneOneUnidir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOneOneUnidir.swift; sourceTree = "<group>"; };
+		86418C852FAB27B700561532 /* ModelOneOneBidir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOneOneBidir.swift; sourceTree = "<group>"; };
+		86418C862FAB27B700561532 /* ModelOneManyUnidir1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOneManyUnidir1.swift; sourceTree = "<group>"; };
+		86418C872FAB27B700561532 /* ModelOneManyUnidir2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOneManyUnidir2.swift; sourceTree = "<group>"; };
+		86418C882FAB27B700561532 /* ModelOneManyBidir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOneManyBidir.swift; sourceTree = "<group>"; };
+		86418C892FAB27B700561532 /* ModelManyManyUnidir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManyManyUnidir.swift; sourceTree = "<group>"; };
+		86418C8A2FAB27B700561532 /* ModelManyManyBidir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManyManyBidir.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +67,25 @@
 			children = (
 				86418C7E2FAB266200561532 /* DeleteRuleApp.swift */,
 				86418C7D2FAB266200561532 /* ContentView.swift */,
+				86418C8B2FAB27B700561532 /* Models */,
 				86418C7C2FAB266200561532 /* Assets.xcassets */,
 			);
 			path = DeleteRule;
+			sourceTree = "<group>";
+		};
+		86418C8B2FAB27B700561532 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86418C832FAB27B700561532 /* Model.swift */,
+				86418C842FAB27B700561532 /* ModelOneOneUnidir.swift */,
+				86418C852FAB27B700561532 /* ModelOneOneBidir.swift */,
+				86418C862FAB27B700561532 /* ModelOneManyUnidir1.swift */,
+				86418C872FAB27B700561532 /* ModelOneManyUnidir2.swift */,
+				86418C882FAB27B700561532 /* ModelOneManyBidir.swift */,
+				86418C892FAB27B700561532 /* ModelManyManyUnidir.swift */,
+				86418C8A2FAB27B700561532 /* ModelManyManyBidir.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +162,14 @@
 			files = (
 				86418C812FAB266200561532 /* ContentView.swift in Sources */,
 				86418C822FAB266200561532 /* DeleteRuleApp.swift in Sources */,
+				86418C8C2FAB27B700561532 /* ModelOneOneUnidir.swift in Sources */,
+				86418C8D2FAB27B700561532 /* ModelOneManyUnidir1.swift in Sources */,
+				86418C8E2FAB27B700561532 /* ModelOneManyBidir.swift in Sources */,
+				86418C8F2FAB27B700561532 /* ModelManyManyUnidir.swift in Sources */,
+				86418C902FAB27B700561532 /* ModelOneOneBidir.swift in Sources */,
+				86418C912FAB27B700561532 /* ModelOneManyUnidir2.swift in Sources */,
+				86418C922FAB27B700561532 /* ModelManyManyBidir.swift in Sources */,
+				86418C932FAB27B700561532 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +311,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.samekard.DeleteRule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,10 +353,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.samekard.DeleteRule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
